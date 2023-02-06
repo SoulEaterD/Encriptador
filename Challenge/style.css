@@ -1,0 +1,137 @@
+body{
+   margin: 0px;
+   padding: 0px;
+   background: #D8DFE8;
+ 
+}
+
+.contenedor{
+    margin: auto;
+    width: 980px;
+    height: 650px;
+    padding: 5px;
+    background: #1a1a1a;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    border-radius: 40px;
+}
+
+.logo{
+    display: inline;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.text-area{
+    float: left;
+    width: 70%;
+    height: 445px;
+    border: 1px solid #fefbfb;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 10px;
+    font-size: 1em;
+    line-height: 150%;
+}
+
+.text-area::placeholder{
+    color: #0A3871;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.mensaje{
+    float: right;
+    background-image: url(imagenes/Muñeco.jpg);
+    background-repeat: no-repeat;
+    background-position: center 140px;
+    background-size:contain;
+    border: none;
+    width: 25%;
+    height: 600px;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-right: 15px;
+    font-size: 0.7em;
+}
+
+.mensaje::placeholder{
+    text-align: center;
+    font-weight: bolder;
+    color: #000000;
+    padding-top: 360px;
+    padding-left: 7px;
+
+}
+
+.indicación{
+    font-size: 15px;
+    color: #fefbfb;
+    margin-left: 15px;
+}
+
+.codificar button{
+    float: left;
+    width: 300px;
+    height: 60px;
+    margin-top: 5px;
+    margin-left: 33px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    color: #fefbfb;
+    text-transform: uppercase;
+    background: #0A3871;
+    border: 1px solid #181818;
+    border-radius: 24px;
+}
+
+.codificar button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 1s;
+}
+
+.decodificar button{
+    float: left;
+    width: 300px;
+    height: 60px;
+    margin-top: 5px;
+    margin-left: 15px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #D8DFE8;
+    border: 1px solid #181818;
+    border-radius: 24px;
+}
+
+.decodificar button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 1s;
+
+}
+
+.copiar button{
+    position: absolute;
+    width: 220px;
+    height: 60px;
+    margin-top: 560px;
+    margin-left: 30px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #0A3871;
+    color: #fefbfb;
+    border: none;
+    border-radius: 24px;
+}
+
+.copiar button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 1s;
+}
